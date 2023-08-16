@@ -3,6 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Links</title>
+    <style>
+        #sec1 a:link, #sec2 a:visited
+        {
+            text-decoration: none;
+            background-color: rgb(171, 153, 225);
+            border: 1px;
+            color: black;
+            text-align: center;
+            margin: 1px;
+        }
+        #sec2 a:link, #sec2 a:visited
+        {
+            text-decoration: none;
+            background-color: rgb(243, 157, 214);
+            border: 1px;
+            color: black;
+            text-align: center;
+            margin: 1px;
+        }
+        #sec3 a:link, #sec3 a:visited
+        {
+            text-decoration: none;
+            background-color: rgb(170, 239, 201);
+            border: 1px;
+            color: black;
+            text-align: center;
+            margin: 1px;
+        }
+        #sec1 a:hover, #sec2 a:hover, #sec3 a:hover
+        {
+            background-color: rgb(139, 171, 241);
+            color: black;
+        }
+        #sec1 a:active, #sec2 a:active, #sec3 a:active
+        {
+            background-color: rgb(36, 95, 205);
+            color: black;
+        }
+    </style>
 </head>
 <body>
     <h1>Links</h1>
@@ -17,9 +56,9 @@
     <section id="sec2">
         <h2>Internal Links</h2>
         <a href="lists.html" title="lists in html">Lists in HTML</a>
-        <a href="sections.html" title="sections in html">
-            <div>Section in HTML. This is in the same directory.</div>
-        </a>
+        <a href="sections.html" title="sections in html"><br>
+            Section in HTML.
+        </a>This is in the same directory.
     </section>
 
     <section id="sec3">
